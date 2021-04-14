@@ -25,12 +25,12 @@ def random_mixcase(length):
     return randstring(length, ASCII_LETTERS)
 
 def random_mix_letter_uppercase_digit(length):
-    """Return a random string with mixed uppercase and with numbers."""
+    """Return a random string with mixed uppercase with numbers."""
     return randstring(length, UPPERCASE_LETTERS + DIGITS)
 
 def random_mix_letter_lowercase_digit(length):
     """Return a random string with mixed lowercase and numbers."""
-    return randstring(length, UPPERCASE_LETTERS + DIGITS)
+    return randstring(length, LOWERCASE_LETTERS + DIGITS)
 
 def random_mix_letter_digit(length):
     """Return a random string with mixed lowercase and uppercase with numbers."""
