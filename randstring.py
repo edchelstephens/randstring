@@ -1,5 +1,3 @@
-"""Random string generator module using ascii encoding."""
-
 import random
 import string
 
