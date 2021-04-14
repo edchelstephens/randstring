@@ -1,4 +1,4 @@
-"""A random string generator module using ascii encoding."""
+"""Random string generator module using ascii encoding."""
 
 import random
 import string
@@ -41,3 +41,4 @@ def random_mix_letter_digit(length):
 def random_string(length):
     """Return a random string with mixed lowercase uppercase, numbers and symbol."""
     return randstring(length, ASCII_LETTERS + DIGITS + PUNCTUATION)
+
