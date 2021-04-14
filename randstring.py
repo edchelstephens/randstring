@@ -37,6 +37,6 @@ def random_mix_letter_digit(length):
     return randstring(length, ASCII_LETTERS + DIGITS)
 
 def random_string(length):
-    """Return a random string with mixed lowercase, uppercase letters, with numbers and symbol."""
+    """Return a random string with mixed lowercase, uppercase letters, with numbers and symbols."""
     return randstring(length, ASCII_LETTERS + DIGITS + PUNCTUATION)
 
